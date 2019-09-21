@@ -5,12 +5,12 @@ module.exports = {
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
 		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
 		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
-		twitter: 'https://twitter.com/amanhimself',
-		github: `https://github.com/amandeepmittal`,
-		medium: 'https://medium.com/@amanhimself',
-		gatsby: 'https://www.gatsbyjs.org/',
-		bulma: 'https://bulma.io/',
-		siteUrl: `https://www.example.com`
+		siteUrl: `https://www.example.com`,
+		twitter: '',
+		instagram: ``,
+		facebook: ``,
+		google: ``,
+
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -45,7 +45,15 @@ module.exports = {
 				anonymize: true
 			}
 		},
-		`gatsby-plugin-sitemap`
+		`gatsby-plugin-sitemap`,
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+			  name: `src`,
+			  path: `${__dirname}/src/`,
+			},
+		},
+		`gatsby-transformer-remark`,
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.app/offline
 		// 'gatsby-plugin-offline',
