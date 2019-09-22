@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
+import karateKobudoLogo from '../images/oshukai-karate-kobudo.png';
 
 import './style.scss';
 
@@ -12,9 +13,10 @@ const Blog = ( ) => (
             edges {
               node {
                 id
+                html
                 frontmatter {
                   title
-                  date(formatString: "DD MMMM, YYYY")
+                  date(formatString: "DD/MM/YY")
                 }
                 fields {
                   slug
@@ -28,18 +30,27 @@ const Blog = ( ) => (
       render={data => (
         <div>
           <section className="section">
-            <div class="container content">
+            <div class="container">
 
               <p class="title">Actualités</p>
 
               {data.allMarkdownRemark.edges.map(({ node }) => (
                   <div key={node.id}>
-                      <Link to={node.fields.slug}>
-                      <h3>
-                          {node.frontmatter.title}{" "}— {node.frontmatter.date}
-                      </h3>
-                      <p>{node.excerpt}</p>
-                      </Link>
+                      <article class="media">
+                      <figure class="media-left">
+                        <p class="image is-64x64">
+                          <img src={karateKobudoLogo} alt=""/>
+                        </p>
+                      </figure>
+                        <div class="media-content">
+                          <div class="content">
+                          <strong>{node.frontmatter.title}{" "}</strong>
+                          <small>{node.frontmatter.date}</small>
+
+                            <div dangerouslySetInnerHTML={{ __html: node.html }} />
+                          </div>
+                        </div>
+                      </article>
                   </div>
               ))}
 
