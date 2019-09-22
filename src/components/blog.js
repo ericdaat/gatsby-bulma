@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from "gatsby"
-import karateKobudoLogo from '../images/oshukai-karate-kobudo.png';
+import Img from "gatsby-image"
 
 import './style.scss';
 
@@ -17,6 +17,13 @@ const Blog = ( ) => (
                 frontmatter {
                   title
                   date(formatString: "DD/MM/YY")
+                  logo {
+                    childImageSharp {
+                      fluid(maxWidth: 800) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                  }
                 }
                 fields {
                   slug
@@ -39,7 +46,7 @@ const Blog = ( ) => (
                       <article class="media">
                       <figure class="media-left">
                         <p class="image is-64x64">
-                          <img src={karateKobudoLogo} alt=""/>
+                          <Img fluid={node.frontmatter.logo.childImageSharp.fluid} />
                         </p>
                       </figure>
                         <div class="media-content">

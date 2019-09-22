@@ -7,6 +7,7 @@ import './style.scss';
 
 const Midsection = () => (
 	<div>
+
 		<section className="section">
 
 			<div className="container content">
@@ -74,6 +75,67 @@ const Midsection = () => (
 										Venez assister gratuitement à un cours
 										d'essai quand vous le souhaitez.
 									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+
+				</div>
+			</div>
+
+			<div className="container">
+
+				<p class="title">Les Professeurs</p>
+
+				<div className="columns">
+
+					<div className="column is-one-third">
+						<article className="media">
+							<div className="media-content">
+								<figure class="image">
+  									<img src="https://bulma.io/images/placeholders/256x256.png"/>
+								</figure>
+								<div className="content">
+									<h1 className="title is-size-4">François Avril</h1>
+									<p className="subtitle is-size-5">
+										Karate, Ceinture Noire 3ème Dan.
+									</p>
+									<p>About.</p>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div className="column is-one-third">
+						<article className="media">
+
+							<div className="media-content">
+								<figure class="image">
+									<img src="https://bulma.io/images/placeholders/256x256.png"/>
+								</figure>
+								<div className="content">
+									<h1 className="title is-size-4">Gérard Zamour</h1>
+									<p className="subtitle is-size-5">
+										Karate, Ceinture Noire 2ème Dan.
+									</p>
+									<p>About.</p>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div className="column is-one-third">
+						<article className="media">
+							<div className="media-content">
+								<figure class="image">
+  									<img src="https://bulma.io/images/placeholders/256x256.png"/>
+								</figure>
+								<div className="content">
+									<h1 className="title is-size-4">Nicolas Gaubert</h1>
+									<p className="subtitle is-size-5">
+										Kobudo, Ceinture Noire 4ème Dan.
+									</p>
+									<p>About.</p>
 								</div>
 							</div>
 						</article>
