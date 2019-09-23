@@ -10,33 +10,33 @@ const Teachers = () => (
 		<section className="section">
 			<div className="container">
 
-				<p class="title">Les Professeurs</p>
+				<p className="title">Les Professeurs</p>
 
 				<div className="columns">
 
 					<div className="column is-one-third">
 
-						<div class="card">
-							<div class="card-image">
-								<figure class="image is-4by3">
+						<div className="card">
+							<div className="card-image">
+								<figure className="image is-4by3">
 								<img src="https://bulma.io/images/placeholders/1280x960.png"/>
 								</figure>
 							</div>
 
-							<div class="card-content">
-								<div class="media">
-									<div class="media-left">
-										<figure class="image is-48x48">
+							<div className="card-content">
+								<div className="media">
+									<div className="media-left">
+										<figure className="image is-48x48">
 										<img src={oshukaiKarateLogo}/>
 										</figure>
 									</div>
-									<div class="media-content">
-										<p class="title is-4">François Avril</p>
-										<p class="subtitle is-6">Karaté, Ceinture Noire 3ème Dan</p>
+									<div className="media-content">
+										<p className="title is-4">François Avril</p>
+										<p className="subtitle is-6">Karaté, Ceinture Noire 3ème Dan</p>
 									</div>
 									</div>
 
-									<div class="content">
+									<div className="content">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 									Phasellus nec iaculis mauris.
 								</div>
@@ -46,27 +46,27 @@ const Teachers = () => (
 
 					<div className="column is-one-third">
 
-						<div class="card">
-							<div class="card-image">
-								<figure class="image is-4by3">
+						<div className="card">
+							<div className="card-image">
+								<figure className="image is-4by3">
 								<img src="https://bulma.io/images/placeholders/1280x960.png"/>
 								</figure>
 							</div>
 
-							<div class="card-content">
-								<div class="media">
-									<div class="media-left">
-										<figure class="image is-48x48">
+							<div className="card-content">
+								<div className="media">
+									<div className="media-left">
+										<figure className="image is-48x48">
 										<img src={oshukaiKarateLogo}/>
 										</figure>
 									</div>
-									<div class="media-content">
-										<p class="title is-4">Gérard Zamour</p>
-										<p class="subtitle is-6">Karaté, Ceinture Noire 2ème Dan</p>
+									<div className="media-content">
+										<p className="title is-4">Gérard Zamour</p>
+										<p className="subtitle is-6">Karaté, Ceinture Noire 2ème Dan</p>
 									</div>
 									</div>
 
-									<div class="content">
+									<div className="content">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 									Phasellus nec iaculis mauris.
 								</div>
@@ -76,27 +76,27 @@ const Teachers = () => (
 
 					<div className="column is-one-third">
 
-						<div class="card">
-							<div class="card-image">
-								<figure class="image is-4by3">
+						<div className="card">
+							<div className="card-image">
+								<figure className="image is-4by3">
 								<img src="https://bulma.io/images/placeholders/1280x960.png"/>
 								</figure>
 							</div>
 
-							<div class="card-content">
-								<div class="media">
-									<div class="media-left">
-										<figure class="image is-48x48">
+							<div className="card-content">
+								<div className="media">
+									<div className="media-left">
+										<figure className="image is-48x48">
 										<img src={oshukaiKobudoLogo}/>
 										</figure>
 									</div>
-									<div class="media-content">
-										<p class="title is-4">Nicolas Gaubert</p>
-										<p class="subtitle is-6">Kobudo, Ceinture Noire 4ème Dan</p>
+									<div className="media-content">
+										<p className="title is-4">Nicolas Gaubert</p>
+										<p className="subtitle is-6">Kobudo, Ceinture Noire 4ème Dan</p>
 									</div>
 									</div>
 
-									<div class="content">
+									<div className="content">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 									Phasellus nec iaculis mauris.
 								</div>

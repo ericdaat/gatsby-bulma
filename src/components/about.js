@@ -7,7 +7,7 @@ const About = () => (
         <section className="section is-small">
 
             <div className="container content">
-                <p class="title">Qui Sommes Nous?</p>
+                <p className="title">Qui Sommes Nous?</p>
 
                 <h3>l'Ecole Oshukai</h3>
                 <p>

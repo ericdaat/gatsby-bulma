@@ -43,7 +43,7 @@ const Blog = ( ) => (
               <p className="title">Actualités</p>
 
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                  <div class="box" key={node.id}>
+                  <div className="box" key={node.id}>
                       <article className="media">
                         <figure className="media-left">
                           <p className="image is-64x64">

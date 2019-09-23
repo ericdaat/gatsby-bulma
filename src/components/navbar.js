@@ -15,6 +15,7 @@ const Navbar = () => (
 						</Link>
 					</span>
 				</div>
+
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end has-text-black">
 						<span className="navbar-item">
