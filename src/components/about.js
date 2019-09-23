@@ -9,13 +9,6 @@ const About = () => (
             <div className="container content">
                 <p class="title">Qui Sommes Nous?</p>
 
-                <p>
-                    Oshukai Paris est un club de Karaté Shorin Ryu
-                    et de Kobudo traditionel d'Okinawa.<br/>
-                    Notre Dojo est situé dans le 14ème arrondissement de Paris
-                    et nos cours ont lieu les Mardi et Jeudi soir.
-                </p>
-
                 <h3>l'Ecole Oshukai</h3>
                 <p>
                     Oshukaï est le nom de l’école de Maître Kenyu CHINEN.

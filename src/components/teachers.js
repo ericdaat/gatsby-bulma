@@ -1,90 +1,13 @@
 import React from 'react';
-import {
-	FaLocationArrow, FaClock, FaThumbsUp,
-} from 'react-icons/fa';
 import oshukaiKarateLogo from '../images/oshukai-karate.png';
 import oshukaiKobudoLogo from '../images/oshukai-kobudo.png';
 
 import './style.scss';
 
-const Midsection = () => (
+const Teachers = () => (
 	<div>
 
-		<section className="section is-small">
-			<div className="container">
-
-				<div className="columns is-variable is-8">
-
-					<div className="column">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaLocationArrow size="fa-2x"/>
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Où nous trouver</h1>
-									<p className="subtitle is-size-5">
-										3 Villa d'Orléans,<br/>
-										75014 Paris.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<div className="column">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaClock size="fa-2x"/>
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Les horaires</h1>
-									<p className="subtitle is-size-5">
-										Karaté:
-										<ul>
-											<li>Mardi, de 19h à 20h30</li>
-											<li>Jeudi de 20h30 à 22h.</li>
-										</ul>
-
-										Kobudo:
-										<ul>
-											<li>Jeudi de 19h à 20h30.</li>
-										</ul>
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<div className="column">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaThumbsUp size="fa-2x" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Cours d'Essai</h1>
-									<p className="subtitle is-size-5">
-										Venez assister gratuitement à un cours
-										d'essai quand vous le souhaitez.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<section className="section is-medium">
+		<section className="section">
 			<div className="container">
 
 				<p class="title">Les Professeurs</p>
@@ -109,7 +32,7 @@ const Midsection = () => (
 									</div>
 									<div class="media-content">
 										<p class="title is-4">François Avril</p>
-										<p class="subtitle is-6">Karate, Ceinture Noire 3ème Dan</p>
+										<p class="subtitle is-6">Karaté, Ceinture Noire 3ème Dan</p>
 									</div>
 									</div>
 
@@ -139,7 +62,7 @@ const Midsection = () => (
 									</div>
 									<div class="media-content">
 										<p class="title is-4">Gérard Zamour</p>
-										<p class="subtitle is-6">Karate, Ceinture Noire 2ème Dan</p>
+										<p class="subtitle is-6">Karaté, Ceinture Noire 2ème Dan</p>
 									</div>
 									</div>
 
@@ -189,4 +112,4 @@ const Midsection = () => (
 	</div>
 );
 
-export default Midsection;
+export default Teachers;

@@ -5,7 +5,7 @@ module.exports = {
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
 		description: 'Club de Karaté et Kobudo Oshukai Paris',
 		keywords: `Karate, Kobudo, Arts Martiaux, Shorin Ryu, Oshukai, Paris, Okinawa`,
-		siteUrl: ``,
+		siteUrl: `localhost:8000`,
 		twitter: ``,
 		instagram: ``,
 		facebook: ``,

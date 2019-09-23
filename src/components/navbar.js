@@ -1,24 +1,34 @@
 import React from 'react';
+import { Link } from "gatsby"
+import oshukaiLogo from '../images/oshukai-karate-kobudo.png';
 
 import './style.scss';
-import oshukaiLogo from '../images/oshukai-karate-kobudo.png';
 
 const Navbar = () => (
 	<div className="hero-head is-hidden-mobile">
 		<nav className="navbar">
 			<div className="container">
 				<div className="navbar-brand">
-					<a
-						className="navbar-item"
-						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-					>
-						<img src={oshukaiLogo} alt="Logo-1" />
-					</a>
+					<span className="navbar-item">
+						<Link to={`/`}>
+							<img src={oshukaiLogo} alt="Logo-1" />
+						</Link>
+					</span>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end has-text-black">
-						<span className="navbar-item">A Propos</span>
-						<span className="navbar-item">Contact</span>
+						<span className="navbar-item">
+							<Link to={`/`}>Accueil</Link>
+						</span>
+						<span className="navbar-item">
+							<Link to={`/about/`}>A Propos</Link>
+						</span>
+						<span className="navbar-item">
+							<Link to={`/blog/`}>Actualités</Link>
+						</span>
+						{/* <span className="navbar-item">
+							<Link to={`/contact/`}>Contact</Link>
+						</span> */}
 					</div>
 				</div>
 			</div>
