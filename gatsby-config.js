@@ -1,12 +1,12 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Gatsby Bulma Quickstart',
-		author: 'Aman Mittal',
+		title: 'Oshukai Paris',
+		author: 'Oshukai Paris',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
-		siteUrl: `https://www.example.com`,
-		twitter: '',
+		description: 'Club de Karaté et Kobudo Oshukai Paris',
+		keywords: `Karate, Kobudo, Arts Martiaux, Shorin Ryu, Oshukai, Paris, Okinawa`,
+		siteUrl: ``,
+		twitter: ``,
 		instagram: ``,
 		facebook: ``,
 		google: ``,
