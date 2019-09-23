@@ -16,9 +16,9 @@ const Navbar = () => (
 					</a>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
-					<div className="navbar-end">
-						<span className="navbar-item has-text-white">A Propos</span>
-						<span className="navbar-item has-text-white">Contact</span>
+					<div className="navbar-end has-text-black">
+						<span className="navbar-item">A Propos</span>
+						<span className="navbar-item">Contact</span>
 					</div>
 				</div>
 			</div>

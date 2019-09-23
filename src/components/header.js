@@ -1,26 +1,40 @@
 import React from 'react';
-
+import { StaticQuery, graphql } from "gatsby"
+import Navbar from './navbar';
 import './style.scss';
 
-import Navbar from './navbar';
-
 const Header = ({ siteTitle }) => (
-	<section className="hero gradientBg">
-		<Navbar />
-		<div className="hero-body">
-			<div className="container center">
-				<article className="media">
-					<div className="media-content">
-						<div className="content">
-							<p className="title is-uppercase is-size-1 has-text-white">
-								Oshukai Paris
-							</p>
-						</div>
+	<StaticQuery
+      query={graphql`
+		query {
+			site {
+				siteMetadata {
+					title
+				}
+			}
+		}`
+      }
+      render={data => (
+		  <div>
+			<section className="hero has-background-light">
+				<Navbar />
+				<div className="hero-body">
+					<div className="container center">
+						<article className="media">
+							<div className="media-content">
+								<div className="content">
+									<p className="title is-uppercase is-size-1 has-text-black">
+										{data.site.siteMetadata.title}
+									</p>
+								</div>
+							</div>
+						</article>
 					</div>
-				</article>
-			</div>
+				</div>
+			</section>
 		</div>
-	</section>
-);
+      )}
+	  />
+  );
 
 export default Header;

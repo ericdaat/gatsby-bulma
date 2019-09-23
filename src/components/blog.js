@@ -16,7 +16,7 @@ const Blog = ( ) => (
                 html
                 frontmatter {
                   title
-                  date(formatString: "DD/MM/YY")
+                  date(formatString: "DD/MM/YYYY")
                   logo {
                     childImageSharp {
                       fluid(maxWidth: 800) {
@@ -37,26 +37,26 @@ const Blog = ( ) => (
       render={data => (
         <div>
           <section className="section">
-            <div class="container">
 
-              <p class="title">Actualités</p>
+            <div className="container">
+
+              <p className="title">Actualités</p>
 
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                  <div key={node.id}>
-                      <article class="media">
-                      <figure class="media-left">
-                        <p class="image is-64x64">
-                          <Img fluid={node.frontmatter.logo.childImageSharp.fluid} />
-                        </p>
-                      </figure>
-                        <div class="media-content">
-                          <div class="content">
-                          <strong>{node.frontmatter.title}{" "}</strong>
-                          <small>{node.frontmatter.date}</small>
-
-                            <div dangerouslySetInnerHTML={{ __html: node.html }} />
+                  <div class="box" key={node.id}>
+                      <article className="media">
+                        <figure className="media-left">
+                          <p className="image is-64x64">
+                            <Img fluid={node.frontmatter.logo.childImageSharp.fluid} />
+                          </p>
+                        </figure>
+                          <div className="media-content">
+                            <div className="content">
+                              <strong>{node.frontmatter.title}{" "}</strong><br/>
+                              <small>Le {node.frontmatter.date}</small>
+                              <div dangerouslySetInnerHTML={{ __html: node.html }} />
+                            </div>
                           </div>
-                        </div>
                       </article>
                   </div>
               ))}

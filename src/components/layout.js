@@ -11,8 +11,7 @@ const Layout = ({ children }) => (
 	<div>
 		<Helmet />
 		<Header />
-		<Midsection />
-		<Blog />
+		{children}
 		<Footer />
 	</div>
 );
