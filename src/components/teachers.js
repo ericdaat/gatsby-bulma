@@ -8,10 +8,15 @@ const Teachers = () => (
 	<div>
 
 		<section className="section">
-			<div className="container">
 
+			<div className="container content">
 				<p className="title">Les Professeurs</p>
 
+				<p>Tous les professeurs suivent l’enseignement de senseï
+					Kenyu Chinen depuis plus de 15 ans.</p>
+			</div>
+
+			<div className="container">
 				<div className="columns">
 
 					<div className="column is-one-third">
@@ -34,11 +39,15 @@ const Teachers = () => (
 										<p className="title is-4">François Avril</p>
 										<p className="subtitle is-6">Karaté, Ceinture Noire 3ème Dan</p>
 									</div>
-									</div>
+								</div>
 
-									<div className="content">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Phasellus nec iaculis mauris.
+								<div className="content">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Phasellus nec iaculis mauris.
+									</p>
+
+									<p>Contact: 06 00 00 00 00</p>
 								</div>
 							</div>
 						</div>
@@ -64,11 +73,15 @@ const Teachers = () => (
 										<p className="title is-4">Gérard Zamour</p>
 										<p className="subtitle is-6">Karaté, Ceinture Noire 2ème Dan</p>
 									</div>
-									</div>
+								</div>
 
-									<div className="content">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Phasellus nec iaculis mauris.
+								<div className="content">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Phasellus nec iaculis mauris.
+									</p>
+
+									<p>Contact: 06 00 00 00 00</p>
 								</div>
 							</div>
 						</div>
@@ -94,11 +107,15 @@ const Teachers = () => (
 										<p className="title is-4">Nicolas Gaubert</p>
 										<p className="subtitle is-6">Kobudo, Ceinture Noire 4ème Dan</p>
 									</div>
-									</div>
+								</div>
 
-									<div className="content">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Phasellus nec iaculis mauris.
+								<div className="content">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Phasellus nec iaculis mauris.
+									</p>
+
+									<p>Contact: 06 00 00 00 00</p>
 								</div>
 							</div>
 						</div>

@@ -21,9 +21,9 @@ const Access = () => (
 
 			<div className="container">
 
-				<div className="columns is-variable is-8">
+				<div className="columns">
 
-					<div className="column">
+					<div className="column is-one-third">
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
@@ -37,12 +37,21 @@ const Access = () => (
 										3 Villa d'Orléans,<br/>
 										75014 Paris.
 									</p>
+									<div class="mapouter">
+										<div class="gmap_canvas">
+											<iframe
+												id="gmap_canvas"
+												src="https://maps.google.com/maps?q=oshukai%20paris%20france&t=&z=15&ie=UTF8&iwloc=&output=embed"
+												frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+											</iframe>
+										</div>
+									</div>
 								</div>
 							</div>
 						</article>
 					</div>
 
-					<div className="column">
+					<div className="column is-one-third">
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
@@ -52,24 +61,42 @@ const Access = () => (
 							<div className="media-content">
 								<div className="content">
 									<h1 className="title is-size-4">Les horaires</h1>
-									<p className="subtitle is-size-5">
-										Karaté:
-										<ul>
-											<li>Mardi, de 19h à 20h30</li>
-											<li>Jeudi de 20h30 à 22h.</li>
-										</ul>
-
-										Kobudo:
-										<ul>
-											<li>Jeudi de 19h à 20h30.</li>
-										</ul>
-									</p>
+									<div class="table-container">
+										<table class="table is-narrow">
+											<thead>
+												<th></th>
+												<th>Mardi</th>
+												<th>Mercredi</th>
+												<th>Jeudi</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Karaté Adultes</td>
+													<td>19h-20h30</td>
+													<td></td>
+													<td>20h30-22h</td>
+												</tr>
+												<tr>
+													<td>Karaté Enfants</td>
+													<td></td>
+													<td>15h-16h</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>Kobudo</td>
+													<td></td>
+													<td></td>
+													<td>19h-20h30</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
 								</div>
 							</div>
 						</article>
 					</div>
 
-					<div className="column">
+					<div className="column is-one-third">
 						<article className="media">
 							<figure className="media-left">
 								<span className="icon is-medium">
