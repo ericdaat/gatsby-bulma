@@ -11,8 +11,14 @@ const Navbar = () => (
 				<div className="navbar-brand">
 					<span className="navbar-item">
 						<Link to={`/`}>
-							<img src={oshukaiLogo} alt="Logo-1" />
+							<img src={oshukaiLogo} alt="Logo" />
 						</Link>
+					</span>
+
+					<span className="navbar-burger burger" data-target="navbarMenuHeroA">
+						<span></span>
+						<span></span>
+						<span></span>
 					</span>
 				</div>
 

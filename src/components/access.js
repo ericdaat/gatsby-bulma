@@ -37,12 +37,12 @@ const Access = () => (
 										3 Villa d'Orléans,<br/>
 										75014 Paris.
 									</p>
-									<div class="mapouter">
-										<div class="gmap_canvas">
+									<div className="mapouter">
+										<div className="gmap_canvas">
 											<iframe
 												id="gmap_canvas"
 												src="https://maps.google.com/maps?q=oshukai%20paris%20france&t=&z=15&ie=UTF8&iwloc=&output=embed"
-												frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+												frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
 											</iframe>
 										</div>
 									</div>
@@ -61,13 +61,15 @@ const Access = () => (
 							<div className="media-content">
 								<div className="content">
 									<h1 className="title is-size-4">Les horaires</h1>
-									<div class="table-container">
-										<table class="table is-narrow">
+									<div className="table-container">
+										<table className="table is-narrow">
 											<thead>
-												<th></th>
-												<th>Mardi</th>
-												<th>Mercredi</th>
-												<th>Jeudi</th>
+												<tr>
+													<th></th>
+													<th>Mardi</th>
+													<th>Mercredi</th>
+													<th>Jeudi</th>
+												</tr>
 											</thead>
 											<tbody>
 												<tr>

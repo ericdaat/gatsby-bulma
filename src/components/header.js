@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
       }
       render={data => (
 		  <div>
-			<section className="hero has-background-light">
+			<section className="hero">
 				<Navbar />
 				<div className="hero-body">
 					<div className="container center">
