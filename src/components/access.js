@@ -32,20 +32,21 @@ const Access = () => (
 							</figure>
 							<div className="media-content">
 								<div className="content">
+
 									<h1 className="title is-size-4">Où nous trouver</h1>
 									<p className="subtitle is-size-5">
 										3 Villa d'Orléans,<br/>
 										75014 Paris.
 									</p>
-									<div className="mapouter">
-										<div className="gmap_canvas">
-											<iframe
-												id="gmap_canvas"
-												src="https://maps.google.com/maps?q=oshukai%20paris%20france&t=&z=15&ie=UTF8&iwloc=&output=embed"
-												frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
-											</iframe>
-										</div>
+
+									<div className="gmap_canvas">
+										<iframe
+											id="gmap_canvas"
+											src="https://maps.google.com/maps?q=oshukai%20paris%20france&t=&z=15&ie=UTF8&iwloc=&output=embed"
+											frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
+										</iframe>
 									</div>
+
 								</div>
 							</div>
 						</article>
